@@ -36,6 +36,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
