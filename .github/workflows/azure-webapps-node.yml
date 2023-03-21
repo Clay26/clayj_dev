@@ -52,12 +52,11 @@ jobs:
         cache-dependency-path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
     - name: npm install, build, and test
-      with:
-        path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
       run: |
-        npm install ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        npm run build ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        npm run test ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --if-present
+        cd ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        npm install
+        npm run build
+        npm run test --if-present
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
