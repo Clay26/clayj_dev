@@ -52,6 +52,8 @@ jobs:
         cache-dependency-path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
     - name: npm install, build, and test
+      with:
+        path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
       run: |
         npm install ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
         npm run build ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
