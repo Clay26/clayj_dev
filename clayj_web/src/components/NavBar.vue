@@ -29,8 +29,8 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 20px;
   padding-left: 20px;
-  padding-top: 5px;
+  background-color: cadetblue;
+  align-items: stretch;
 }
 </style>
