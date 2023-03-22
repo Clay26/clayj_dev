@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ContentItem from './ContentItem.vue'
+import NavBar from './NavBar.vue'
 import WelcomeBanner from './WelcomeBanner.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
@@ -11,7 +12,8 @@ import backgroundImage from "../assets/BannerPhoto.png"
 
 <template>
   <div class="container">
-    <WelcomeBanner :imageUrl=backgroundImage>
+    <NavBar class="navBar" />
+    <WelcomeBanner class="banner" :imageUrl=backgroundImage>
       <template #content>
         <h1>Welcome to the ClayJ Web</h1>
         <p>
@@ -55,11 +57,18 @@ import backgroundImage from "../assets/BannerPhoto.png"
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 40px;
+}
+
+.banner {
+  margin-bottom: 30px;
 }
 
 .items {
   display: flex;
   justify-content: space-evenly;
+}
+
+.navBar {
+  min-height: 50px;
 }
 </style>
