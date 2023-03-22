@@ -20,32 +20,32 @@ import backgroundImage from "../assets/BannerPhoto.png"
       </template>
     </WelcomeBanner>
     <div class="items">
-    <ContentItem>
-      <template #icon>
-        <DocumentationIcon />
-      </template>
-      <template #heading>Brand Design</template>
+      <ContentItem>
+        <template #icon>
+          <DocumentationIcon />
+        </template>
+        <template #heading>Brand Design</template>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
-    </ContentItem>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
+      </ContentItem>
 
-    <ContentItem>
-      <template #icon>
-        <ToolingIcon />
-      </template>
-      <template #heading>Seo & Marketing</template>
+      <ContentItem>
+        <template #icon>
+          <ToolingIcon />
+        </template>
+        <template #heading>Seo & Marketing</template>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
-    </ContentItem>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
+      </ContentItem>
 
-    <ContentItem>
-      <template #icon>
-        <EcosystemIcon />
-      </template>
-      <template #heading>Creative Design</template>
+      <ContentItem>
+        <template #icon>
+          <EcosystemIcon />
+        </template>
+        <template #heading>Creative Design</template>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
-    </ContentItem>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
+      </ContentItem>
     </div>
   </div>
 </template>
@@ -54,6 +54,8 @@ import backgroundImage from "../assets/BannerPhoto.png"
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
 }
 
 .items {
