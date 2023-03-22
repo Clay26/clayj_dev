@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <div class="BackgroundImage">
+  <div class="Banner">
     <slot name="backgroundImage"></slot>
     <div class="bannerText">
         <slot name="content"></slot>
@@ -22,23 +22,15 @@ export default {
 </template>
 
 <style scoped>
-.background-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url();
-}
-
-.BackgroundImage {
+.Banner {
   min-height: 50vh;
   margin: 0px;
   padding: 0px;
   border: 0px;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url();
 }
 </style>
