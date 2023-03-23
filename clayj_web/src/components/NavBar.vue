@@ -21,6 +21,9 @@ export default {
     <NavItem :link="homeLink">
       HomeNew
     </NavItem>
+    <NavItem :link="homeLink">
+      Index
+    </NavItem>
   </div>
 </template>
 

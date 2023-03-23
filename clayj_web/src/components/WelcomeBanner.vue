@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .Banner {
-  min-height: 70vh;
+  min-height: 60vh;
   margin: 0px;
   padding: 0px;
   border: 0px;

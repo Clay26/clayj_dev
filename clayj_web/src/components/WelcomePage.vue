@@ -2,6 +2,7 @@
 import ContentItem from './ContentItem.vue'
 import NavBar from './NavBar.vue'
 import WelcomeBanner from './WelcomeBanner.vue'
+import FooterArea from './FooterArea.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -49,6 +50,7 @@ import backgroundImage from "../assets/BannerPhoto.png"
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.
       </ContentItem>
     </div>
+    <FooterArea />
   </div>
 </template>
 
@@ -56,16 +58,13 @@ import backgroundImage from "../assets/BannerPhoto.png"
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.banner {
-  margin-bottom: 30px;
+  justify-content: space-between;
 }
 
 .items {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 30px;
 }
 
 .navBar {
