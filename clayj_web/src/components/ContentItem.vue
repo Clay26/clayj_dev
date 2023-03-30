@@ -4,9 +4,9 @@
       <slot name="icon"></slot>
     </i>
     <div class="details">
-      <h1>
+      <h2 class="heading">
         <slot name="heading"></slot>
-      </h1>
+      </h2>
       <slot></slot>
     </div>
   </div>
@@ -22,6 +22,12 @@
   padding-left: 30px;
   border-left: 1px solid;
   height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.heading {
+  font-weight: bold;
 }
 
 .item:first-of-type {

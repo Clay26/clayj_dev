@@ -21,8 +21,11 @@ export default {
 
 <style scoped>
 .item {
-  min-width: 100px;
+  min-width: 110px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-left: 2px solid;
 }
 
@@ -30,7 +33,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
 }
 
 .item:last-of-type {
