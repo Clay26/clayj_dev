@@ -26,7 +26,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 2px solid;
 }
 
 a {
@@ -36,6 +35,7 @@ a {
   height: 100%;
   width: 100%;
   text-decoration: none;
+  min-width: 110px;
 }
 
 .item:last-of-type {

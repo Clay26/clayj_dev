@@ -25,10 +25,7 @@ export default {
         Home
       </NavItem>
       <NavItem :link="homeLink">
-        HomeNew
-      </NavItem>
-      <NavItem :link="homeLink">
-        Index
+        Blog
       </NavItem>
     </div>
   </div>
