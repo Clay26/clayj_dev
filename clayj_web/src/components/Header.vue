@@ -8,6 +8,7 @@ export default {
   data() {
     return {
       homeLink: 'https://www.clayjackson.dev',
+      blogLink: 'https://blog.clayjackson.dev',
     };
   },
 };
@@ -24,7 +25,7 @@ export default {
       <NavItem :link="homeLink">
         Home
       </NavItem>
-      <NavItem :link="homeLink">
+      <NavItem :link="blogLink">
         Blog
       </NavItem>
     </div>
