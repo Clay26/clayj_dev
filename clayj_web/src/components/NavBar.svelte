@@ -8,6 +8,8 @@
     ];
 </script>
 
-{#each pages as page}
-<NavItem {...page} />
-{/each}
+<div class="flex justify-between gap-10">
+    {#each pages as page}
+    <NavItem {...page} />
+    {/each}
+</div>

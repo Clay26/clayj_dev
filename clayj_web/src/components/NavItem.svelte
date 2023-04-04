@@ -3,4 +3,8 @@
     export let text = "Home";
 </script>
 
-<a {href}>{text}</a>
+<div class="flex items-center justify-center">
+    <a {href} class="text-center">
+        {text}
+    </a>
+</div>
