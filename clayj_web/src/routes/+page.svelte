@@ -5,7 +5,6 @@
 	import Footer from "../components/Footer.svelte";
 </script>
 
-<Header />
 <WelcomeBanner>
 	Welcome to Clay J dev!
 </WelcomeBanner>
@@ -24,4 +23,3 @@
 
 	<p slot="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.</p>
 </ContentItem>
-<Footer />
