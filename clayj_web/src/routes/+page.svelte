@@ -2,6 +2,7 @@
 	import Header from "../components/Header.svelte";
 	import WelcomeBanner from "../components/WelcomeBanner.svelte";
 	import ContentItem from "../components/ContentItem.svelte";
+	import Footer from "../components/Footer.svelte";
 </script>
 
 <Header />
@@ -23,3 +24,4 @@
 
 	<p slot="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Semper viverra nam libero justo laoreet sit.</p>
 </ContentItem>
+<Footer />
