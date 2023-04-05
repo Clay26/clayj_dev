@@ -16,7 +16,7 @@
 
 <style>
     .footer {
-        background-color: #1C444D;
+        background-color: #071F24;
         color: white;
     }
 </style>

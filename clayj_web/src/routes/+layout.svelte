@@ -8,7 +8,7 @@
     <div class="header sticky top-0" >
         <Header />
     </div>
-    <div class="flex-grow">
+    <div class="content flex-grow">
         <slot />
     </div>
     <div>
