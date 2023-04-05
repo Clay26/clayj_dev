@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col justify-between min-h-screen">
-    <div>
+    <div class="header sticky top-0" >
         <Header />
     </div>
     <div class="flex-grow">
