@@ -4,7 +4,7 @@
     const pages = [
         { href:"/", text:"Home" },
         { href:"https://blog.clayjackson.dev", text:"Blog" },
-        { href:"/about", text:"About" }
+        { href:"/resume", text:"Resume" }
     ];
 </script>
 
