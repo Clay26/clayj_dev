@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let href = "https://www.clayjackson.dev";
     export let text = "Home";
 </script>

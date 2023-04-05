@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import NavItem from "./NavItem.svelte";
 
     const contacts = [
@@ -8,7 +8,7 @@
     ];
 </script>
 
-<div class="footer flex justify-between px-10">
+<div class="footer flex justify-between px-10 h-10">
     {#each contacts as contact}
     <NavItem {...contact} />
     {/each}
