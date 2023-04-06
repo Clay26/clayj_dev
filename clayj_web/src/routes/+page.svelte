@@ -1,8 +1,6 @@
 <script lang="ts">
 	import WelcomeBanner from "../components/WelcomeBanner.svelte";
 	import ContentItem from "../components/ContentItem.svelte";
-
-	let body = document.body;
 </script>
 
 <div class="homepage flex flex-col gap-14 flex-grow min-h-screen">
