@@ -1,12 +1,11 @@
 <script lang="ts">
-    export let backgroundImage = "/images/BannerPhoto.png";
 </script>
 
 <div class="banner flex justify-center align-middle py-36">
     <div class="flex flex-col text-center font-sans gap-0 leading-none">
         <span class="first-line font-extrabold">CLAY</span>
         <span class="second-line font-extrabold">JACKSON</span>
-        <span class="tag-line font-extrabold">A BASED ENGINEER</span>
+        <span class="tag-line font-extrabold">A TOKEN ENGINEER</span>
     </div>
 </div>
 
