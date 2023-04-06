@@ -5,7 +5,7 @@
     <div class="flex flex-col text-center font-sans gap-0 leading-none">
         <span class="first-line font-extrabold">CLAY</span>
         <span class="second-line font-extrabold">JACKSON</span>
-        <span class="tag-line font-extrabold">A TOKEN ENGINEER</span>
+        <span class="tag-line font-extrabold">A CLOUD ENGINEER</span>
     </div>
 </div>
 
