@@ -5,7 +5,7 @@
 
 <div class="homepage flex flex-col flex-grow min-h-screen">
 	<WelcomeBanner />
-	<div class="flex flex-col md:flex-row text-white mx-8 my-10 gap-4">
+	<div class="flex flex-col self-center gap-6 max-w-sm lg:flex-row lg:max-w-4xl lg:items-end lg:gap-10 text-white mx-8 my-10">
 		<ContentItem>
 			<span slot="heading">Cloud First Approach</span>
 
