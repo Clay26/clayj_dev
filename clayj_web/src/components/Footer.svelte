@@ -8,15 +8,8 @@
     ];
 </script>
 
-<div class="footer flex justify-between px-10 h-10">
+<div class="flex justify-between px-10 h-10 bg-footer text-white">
     {#each contacts as contact}
     <NavItem {...contact} />
     {/each}
 </div>
-
-<style>
-    .footer {
-        background-color: #071F24;
-        color: white;
-    }
-</style>

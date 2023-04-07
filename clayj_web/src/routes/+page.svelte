@@ -3,9 +3,11 @@
 	import ContentItem from "../components/ContentItem.svelte";
 </script>
 
-<div class="homepage flex flex-col flex-grow min-h-screen">
-	<WelcomeBanner />
-	<div class="flex flex-col self-center gap-6 max-w-sm lg:flex-row lg:max-w-4xl lg:items-end lg:gap-10 text-white mx-8 my-10">
+<div class="flex flex-col flex-grow items-stretch bg-darkblue">
+	<div class="grow">
+		<WelcomeBanner />
+	</div>
+	<div class="flex flex-col w-full lg:w-auto gap-8 max-w-sm lg:justify-between lg:flex-row lg:max-w-4xl lg:items-baseline lg:gap-10 text-white mx-8 my-10">
 		<ContentItem>
 			<span slot="heading">Cloud First Approach</span>
 
@@ -23,9 +25,3 @@
 		</ContentItem>
 	</div>
 </div>
-
-<style>
-	.homepage {
-        background-color: #1C444D;
-	}
-</style>

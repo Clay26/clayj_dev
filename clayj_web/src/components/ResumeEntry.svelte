@@ -7,7 +7,7 @@
 </script>
 
 <div class="text-xl">
-    <a {href} class="company font-bold">{Name}:</a>
+    <a {href} class="font-bold text-banneraccent">{Name}:</a>
     <span>
         {Description} {Timeframe}
     </span>
@@ -19,9 +19,3 @@
         {/each}
     </div>
 </div>
-
-<style>
-    a {
-        color: #107A91;
-    }
-</style>
