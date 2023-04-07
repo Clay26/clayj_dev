@@ -60,9 +60,9 @@
     ];
 </script>
 
-<div class="flex justify-center my-8 border-solid border-indigo-500 border-8">
-    <div class="flex flex-col flex-grow max-w-5xl gap-3 text-xl">
-        <div class="font-extrabold text-gray-700 text-4xl border-b-2 border-slate-300 py-4">
+<div class="flex justify-center my-8">
+    <div class="flex flex-col flex-grow max-w-3xl gap-3 text-lg">
+        <div class="font-extrabold text-gray-700 text-3xl border-b-2 border-slate-300 py-4">
             <h1>Clay Jackson</h1>
         </div>
         <div class="flex flex-col gap-1">
@@ -93,9 +93,3 @@
         </ResumeSection>
     </div>
 </div>
-
-<style>
-    a {
-        color: #107A91;
-    }
-</style>
