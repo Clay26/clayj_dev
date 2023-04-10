@@ -44,17 +44,17 @@
 
     let Schools = [
         {
-            Name: "Ohio State University",
-            Description: "Bachelor's of Science in Mechanical Engineering",
-            TimeRanges: "08/2013 - 05/2018",
-            href: "https://osu.edu",
-            Duties: []
-        },
-        {
             Name: "Georgia Tech University",
             Description: "Master's of Science in Computer Science",
             TimeRanges: "08/2013 - 05/2018",
             href: "https://gatech.edu",
+            Duties: []
+        },
+        {
+            Name: "Ohio State University",
+            Description: "Bachelor's of Science in Mechanical Engineering",
+            TimeRanges: "08/2013 - 05/2018",
+            href: "https://osu.edu",
             Duties: []
         }
     ];
