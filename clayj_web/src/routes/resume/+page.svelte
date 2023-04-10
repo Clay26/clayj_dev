@@ -76,7 +76,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Egestas congue quisque egestas diam in arcu. Lectus magna fringilla urna porttitor rhoncus dolor. Elit eget gravida cum sociis natoque penatibus.
             </p>
             {#each ContactLinks as {href, name}}
-                <a {href} class="hover:text-banneraccentlt">{name}</a>
+                <a {href} class="hover:text-banneraccentlt self-start">{name}</a>
             {/each}
         </div>
         <ResumeSection SectionName="Skills">
