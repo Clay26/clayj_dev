@@ -6,7 +6,7 @@
     export let Duties: [string];
 </script>
 
-<div class="text-xl">
+<div class="text-lg md:text-xl">
     <a {href} class="font-bold text-banneraccent">{Name}:</a>
     <span>
         {Description} {Timeframe}
