@@ -4,8 +4,8 @@
 
     const pages = [
         { href:"/", text:"Home" },
-        { href:"https://blog.clayjackson.dev", text:"Blog" },
-        { href:"/resume", text:"Resume" }
+        { href:"/resume", text:"Resume" },
+        { href:"https://blog.clayjackson.dev", text:"Blog" }
     ];
 </script>
 
