@@ -3,8 +3,6 @@
     export let text = "Home";
 </script>
 
-<div class="flex items-center justify-center">
-    <a {href} class="text-center">
-        {text}
-    </a>
-</div>
+<a {href} class="text-center text-banneraccent hover:text-banneraccentlt hover:underline">
+    {text}
+</a>
