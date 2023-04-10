@@ -4,10 +4,10 @@
 	import Header from "../components/Header.svelte";
 </script>
 
-<div class="flex flex-col justify-between min-h-screen">
-    <div class="sticky top-0" >
+<div class="flex flex-col min-h-screen w-full">
         <Header />
-    </div>
+    <div class="flex-grow">
         <slot />
+    </div>
     <Footer />
 </div>
