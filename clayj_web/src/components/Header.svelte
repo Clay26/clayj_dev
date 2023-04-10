@@ -1,5 +1,6 @@
 <script lang="ts">
     import NavBar from './NavBar.svelte';
+    import Hamburger from './Hamburger.svelte';
     let logo = '/images/robot.png';
 </script>
 
@@ -7,5 +8,5 @@
     <a href="/">
         <img src={logo} alt="Robot Mascot" class="max-h-16 w-auto"/>
     </a>
-    <NavBar />
+    <Hamburger />
 </div>
