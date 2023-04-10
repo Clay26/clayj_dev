@@ -8,6 +8,7 @@ export default {
         'darkblue': '#1C444D',
         'bannerbg': '#0A2E36',
         'banneraccent': '#107A91',
+        'banneraccentlt': '#18B3D6',
         'footer': '#071F24',
       },
     },
