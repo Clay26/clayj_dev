@@ -1,5 +1,4 @@
 <script lang="ts">
-    import NavBar from './NavBar.svelte';
     import Hamburger from './Hamburger.svelte';
     let logo = '/images/robot.png';
 </script>
