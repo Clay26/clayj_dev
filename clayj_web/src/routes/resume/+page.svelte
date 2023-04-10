@@ -1,6 +1,12 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+    import { isOpened } from "../../stores/sidebar.ts";
     import ResumeEntry from "../../components/ResumeEntry.svelte";
     import ResumeSection from "../../components/ResumeSection.svelte";
+
+    onMount(() => {
+        isOpened.set(false);
+    });
 
     let Companies = [
         {

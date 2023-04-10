@@ -1,6 +1,12 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+	import { isOpened } from "../stores/sidebar.ts";
 	import WelcomeBanner from "../components/WelcomeBanner.svelte";
 	import ContentItem from "../components/ContentItem.svelte";
+
+    onMount(() => {
+        isOpened.set(false);
+    });
 </script>
 
 <div class="flex flex-col grow bg-darkblue">
