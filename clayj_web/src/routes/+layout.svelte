@@ -19,6 +19,6 @@
     </div>
     <Footer />
 </div>
-<div class="bg-bannerbg top-0 h-full w-48 {isSideBarOpen ? 'fixed right-0' : 'hidden right-[-250px]'}">
+<div class="bg-bannerbg top-0 h-full w-full md:w-56 lg:w-72 {isSideBarOpen ? 'fixed right-0' : 'hidden right-[-250px]'}">
     <SideBar />
 </div>
