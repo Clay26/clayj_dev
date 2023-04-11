@@ -17,6 +17,6 @@
     <slot />
     <Footer />
 </div>
-<div class="bg-bannerbg fixed top-0 h-full w-full md:w-56 lg:w-72 transistion-all ease-in-out duration-300 {isSideBarOpen ? 'right-0 opacity-100' : 'invisible right-[-250px]'}">
+<div class="bg-bannerbg fixed top-0 right-0 h-full w-full md:w-56 lg:w-72 transistion-all ease-in-out duration-500 {isSideBarOpen ? '' : 'translate-x-full'}">
     <SideBar />
 </div>
