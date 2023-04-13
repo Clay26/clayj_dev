@@ -1,6 +1,6 @@
 <script lang="ts">
     import Hamburger from './Hamburger.svelte';
-    let logo = '/images/robot.png';
+    let logo = '/images/robot_Small.png';
 </script>
 
 <div class="flex justify-between px-4 bg-header-green sticky top-0">
