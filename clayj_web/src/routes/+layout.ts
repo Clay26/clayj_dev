@@ -1,2 +1,2 @@
 // Needed for static rendering of site
-export const prerender = true;
+// export const prerender = true;
