@@ -7,3 +7,6 @@
         isOpened.set(false);
     });
 </script>
+
+<div class="grow">
+</div>

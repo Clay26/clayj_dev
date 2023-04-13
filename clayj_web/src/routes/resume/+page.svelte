@@ -66,7 +66,7 @@
     ];
 </script>
 
-<div class="flex justify-center my-8">
+<div class="flex grow justify-center my-8">
     <div class="flex flex-col flex-grow mx-8 md:max-w-3xl gap-3 text-md md:text-lg">
         <div class="font-extrabold text-gray-700 text-2xl md:text-3xl border-b-2 border-slate-300 py-4">
             <h1>Clay Jackson</h1>
