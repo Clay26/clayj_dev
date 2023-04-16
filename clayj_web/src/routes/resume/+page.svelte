@@ -10,11 +10,11 @@
 
     let Companies = [
         {
-        Name:"Microsoft",
-        Description:"Software Engineer II",
-        Timeframe:"03/2020 - Current",
+        name:"Microsoft",
+        description:"Software Engineer II",
+        timeframe:"03/2020 - Current",
         href:"https://www.microsoft.com",
-        Duties: [
+        duties: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Donec et odio pellentesque diam volutpat commodo sed.",
             "Porta non pulvinar neque laoreet suspendisse interdum.",
@@ -27,11 +27,11 @@
         ]
         },
         {
-        Name:"Northrop Grumman",
-        Description:"Software Engineer",
-        Timeframe:"07/2018 - 03/2020",
+        name:"Northrop Grumman",
+        description:"Software Engineer",
+        timeframe:"07/2018 - 03/2020",
         href:"https://www.northropgrumman.com",
-        Duties: [
+        duties: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.",
             "Rhoncus urna neque viverra justo nec.",
@@ -44,18 +44,18 @@
 
     let Schools = [
         {
-            Name: "Georgia Tech University",
-            Description: "Master's of Science in Computer Science",
+            name: "Georgia Tech University",
+            description: "Master's of Science in Computer Science",
             TimeRanges: "08/2013 - 05/2018",
             href: "https://gatech.edu",
-            Duties: []
+            duties: []
         },
         {
-            Name: "Ohio State University",
-            Description: "Bachelor's of Science in Mechanical Engineering",
+            name: "Ohio State University",
+            description: "Bachelor's of Science in Mechanical Engineering",
             TimeRanges: "08/2013 - 05/2018",
             href: "https://osu.edu",
-            Duties: []
+            duties: []
         }
     ];
 
@@ -76,7 +76,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Egestas congue quisque egestas diam in arcu. Lectus magna fringilla urna porttitor rhoncus dolor. Elit eget gravida cum sociis natoque penatibus.
             </p>
             {#each ContactLinks as {href, name}}
-                <a {href} class="hover:text-banneraccentlt self-start">{name}</a>
+                <a {href} class="text-banneraccent hover:text-banneraccentlt self-start">{name}</a>
             {/each}
         </div>
         <ResumeSection SectionName="Skills">
