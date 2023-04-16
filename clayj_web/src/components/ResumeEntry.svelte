@@ -1,21 +1,21 @@
 <script lang="ts">
     export let href="https://google.com";
-    export let Name: string;
-    export let Description: string;
-    export let Timeframe: string;
-    export let Duties: [string];
+    export let name: string;
+    export let description: string;
+    export let timeframe: string;
+    export let duties: [string];
 </script>
 
 <div class="text-lg md:text-xl">
-    <a {href} class="font-bold text-banneraccent">{Name}:</a>
+    <a {href} class="font-bold text-banneraccent hover:text-banneraccentlt">{name}:</a>
     <span>
-        {Description} {Timeframe}
+        {description} {timeframe}
     </span>
-    <div class="px-10 py-1">
-        {#each Duties as Duty}
+    <ul class="px-10 py-1">
+        {#each duties as duty}
         <li class="py-1">
-            {Duty}
+            {duty}
         </li>
         {/each}
-    </div>
+    </ul>
 </div>

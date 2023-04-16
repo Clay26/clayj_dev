@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { toggleSideBar } from "../lib/utils.ts";
 	import NavItem from "./NavItem.svelte";
 
