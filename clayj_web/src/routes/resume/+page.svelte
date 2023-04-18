@@ -61,21 +61,17 @@
             <h1>Clay Jackson</h1>
         </div>
         <div class="flex flex-col gap-1">
+        <ResumeSection SectionName="Thanks for dropping by!">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Egestas congue quisque egestas diam in arcu. Lectus magna fringilla urna porttitor rhoncus dolor. Elit eget gravida cum sociis natoque penatibus.
-            </p>
-            {#each ContactLinks as {href, name}}
-                <a {href} class="text-banneraccent hover:text-banneraccentlt self-start">{name}</a>
-            {/each}
-        </div>
-        <ResumeSection SectionName="Skills">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus turpis in eu mi bibendum. Nunc sed velit dignissim sodales ut eu sem integer vitae. Eu consequat ac felis donec et odio. Adipiscing enim eu turpis egestas pretium aenean.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum dui faucibus in. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
+                I am a software engineer currently working at Microsoft in the Azure Active Directory (AAD) organization. My current focus is on the critical AAD services, such as the api gateway for all of AAD (AAD Gateway) and the token issuance service of AAD (ESTS). Before Microsoft, I worked as a C++ software engineer working modeling and simulation frameworks for radar systems at Northrop Grumman. In my spare time, I'm always tinkering with new technologies that I don't get exposed to in my day job. Stop by my <a class="text-banneraccent hover:text-banneraccentlt" href="https://blog.clayjackson.dev">blog</a> to see my current tech tinkerings.
             </p>
         </ResumeSection>
+        <ResumeSection SectionName="Get in touch">
+            <p>
+                You can find me contact me through my e-mail at <a class="text-banneraccent hover:text-banneraccentlt" href="mailto:contact@clayjackson.dev">contact@clayjackson.dev</a>.
+            </p>
+        </ResumeSection>
+        </div>
         <ResumeSection SectionName="Work Experience">
             {#each Companies as Company}
                 <ResumeEntry {...Company}/>
