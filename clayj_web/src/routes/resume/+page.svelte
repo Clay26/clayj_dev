@@ -61,14 +61,14 @@
             <h1>Clay Jackson</h1>
         </div>
         <div class="flex flex-col gap-1">
-        <ResumeSection SectionName="Thanks for dropping by!">
+        <ResumeSection SectionName="Hello!">
             <p>
-                I am a software engineer currently working at Microsoft in the Azure Active Directory (AAD) organization. My current focus is on the critical AAD services, such as the api gateway for all of AAD (AAD Gateway) and the token issuance service of AAD (ESTS). Before Microsoft, I worked as a C++ software engineer working modeling and simulation frameworks for radar systems at Northrop Grumman. In my spare time, I'm always tinkering with new technologies that I don't get exposed to in my day job. Stop by my <a class="text-banneraccent hover:text-banneraccentlt" href="https://blog.clayjackson.dev">blog</a> to see my current tech tinkerings.
+                I am a software engineer currently working at Microsoft in the Azure Active Directory (AAD) organization. My current focus is on the critical AAD services, such as the API gateway for all of AAD (AAD Gateway) and the token issuance service of AAD (ESTS). Before Microsoft, I worked as a C++ software engineer working on modeling and simulation frameworks for radar systems at Northrop Grumman. In my spare time, I'm always tinkering with new technologies I don't get exposed to in my day job. Stop by my <a class="text-banneraccent hover:text-banneraccentlt" href="https://blog.clayjackson.dev">blog</a> to see my current tech tinkerings.
             </p>
         </ResumeSection>
         <ResumeSection SectionName="Get in touch">
             <p>
-                You can find me contact me through my e-mail at <a class="text-banneraccent hover:text-banneraccentlt" href="mailto:contact@clayjackson.dev">contact@clayjackson.dev</a>.
+                You can contact me through my e-mail at <a class="text-banneraccent hover:text-banneraccentlt" href="mailto:contact@clayjackson.dev">contact@clayjackson.dev</a>.
             </p>
         </ResumeSection>
         </div>
