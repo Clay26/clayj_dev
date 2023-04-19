@@ -1,8 +1,8 @@
 <script lang="ts">
     export let href="https://google.com";
-    export let name: string;
-    export let description: string;
-    export let timeframe: string;
+    export let name: string = "";
+    export let description: string = "";
+    export let timeframe: string = "";
     export let duties: [string];
 </script>
 
