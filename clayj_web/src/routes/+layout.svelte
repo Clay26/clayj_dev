@@ -6,6 +6,7 @@
 	import Footer from '../components/Footer.svelte';
 	import Header from '../components/Header.svelte';
 	import SideBar from '../components/SideBar.svelte';
+	import { toggleSideBar, closeSideBar } from '$lib/utils';
 
 	let sidebarWidth:number;
     
@@ -33,6 +34,7 @@
 		in:fly={{ x: sidebarWidth, duration: 500 }}
 		out:fly={{ x: sidebarWidth, duration: 500 }}
 		class="bg-bannerbg fixed top-0 right-0 h-full w-full md:w-[25%]"
+        on:mouseleave={closeSideBar}
 	>
 		<SideBar />
 	</div>
